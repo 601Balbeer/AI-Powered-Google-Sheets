@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheet Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+        <button id="bold">Bold</button>
+        <button id="italic">Italic</button>
+        <button id="underline">Underline</button>
+        <button id="clear">Clear</button>
+
+        <!-- Formula Bar -->
+        <div class="formula-bar">
+            <input type="text" id="address" disabled>
+            <input type="text" id="formula" placeholder="Enter formula here..">
+        </div>
+    </div>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <div class="top-row"></div>
+        <div class="left-col"></div>
+        <div class="cells"></div>
+    </div>
+
+    <script type="module" src="googleSheetClone.js"></script>
+
+</body>
+</html>
